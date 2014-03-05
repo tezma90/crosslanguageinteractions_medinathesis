@@ -1,0 +1,33 @@
+################################################################################
+# fileA	row_number	column_number	surface_form	fileB	row_number	column_number	surface_form 
+##
+# app
+##
+express-0.8-RC1\code\express-server\src\main\resources\applicationContext.xml	15	4	config	org.apache.commons.configuration.PropertiesConfiguration	LIB
+express-0.8-RC1\code\express-server\src\main\resources\applicationContext.xml	21	14	entityManagerFactory	org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean	LIB
+express-0.8-RC1\code\express-server\src\main\resources\applicationContext.xml	26	14	transactionManager	org.springframework.orm.jpa.JpaTransactionManager	LIB
+express-0.8-RC1\code\express-server\src\main\resources\applicationContext.xml	31	14	objectAssembler	com.googlecode.simpleobjectassembler.SimpleObjectAssembler	LIB
+express-0.8-RC1\code\express-server\src\main\resources\applicationContext.xml	35	14	cacheManager	org.springframework.cache.ehcache.EhCacheManagerFactoryBean	LIB
+express-0.8-RC1\code\express-server\src\main\resources\applicationContext.xml	37	14	loginCache	org.springframework.cache.ehcache.EhCacheFactoryBean	LIB
+express-0.8-RC1\code\express-server\src\main\resources\applicationContext.xml	41	14	passwordEncoder	org.springframework.security.providers.encoding.ShaPasswordEncoder	LIB
+express-0.8-RC1\code\express-server\src\main\resources\applicationContextDataSource.xml	8	14	dataSource	com.mchange.v2.c3p0.ComboPooledDataSource	LIB
+express-0.8-RC1\code\express-server\src\main\resources\applicationContextDataSource.xml	26	14	jpaVendorAdapter	org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter	LIB
+express-0.8-RC1\code\express-server\src\main\resources\applicationContextDataSource.xml	30	14	liquibaseDbMigrator	liquibase.spring.SpringMigrator	LIB
+express-0.8-RC1\code\express-server\src\main\resources\applicationContextNotification.xml	10	14	velocityEngine	org.springframework.ui.velocity.VelocityEngineFactoryBean	LIB
+express-0.8-RC1\code\express-server\src\main\resources\applicationContextNotification.xml	15	14	mailer	org.springframework.mail.javamail.JavaMailSenderImpl	LIB
+express-0.8-RC1\code\express-server\src\main\resources\applicationContextNotification.xml	29	14	notificationFactory	com.express.service.notification.NotificationFactoryImpl	LIB
+express-0.8-RC1\code\express-server\src\main\resources\applicationContextScheduling.xml	10	14	burndownJob	org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean	LIB
+express-0.8-RC1\code\express-server\src\main\resources\applicationContextScheduling.xml	17	14	cronTrigger	org.springframework.scheduling.quartz.CronTriggerBean	LIB
+express-0.8-RC1\code\express-server\src\main\resources\applicationContextScheduling.xml	21	23	triggers	org.springframework.scheduling.quartz.SchedulerFactoryBean	LIB
+express-0.8-RC1\code\express-server\src\main\resources\applicationContextSecurity.xml	12	21	preAuthenticatedEntryPoint	org.springframework.security.ui.preauth.PreAuthenticatedProcessingFilterEntryPoint	LIB
+express-0.8-RC1\code\express-server\src\main\webapp\WEB-INF\dispatcher-servlet.xml	19	4	org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping	org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping	LIB
+express-0.8-RC1\code\express-server\src\main\webapp\WEB-INF\dispatcher-servlet.xml	20	4	org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter	org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter	LIB
+express-0.8-RC1\code\express-server\src\main\webapp\WEB-INF\dispatcher-servlet.xml	21	4	org.springframework.web.servlet.handler.SimpleUrlHandlerMapping	org.springframework.web.servlet.handler.SimpleUrlHandlerMapping	LIB
+express-0.8-RC1\code\express-server\src\main\webapp\WEB-INF\dispatcher-servlet.xml	31	4	org.springframework.web.servlet.view.ContentNegotiatingViewResolver	org.springframework.web.servlet.view.ContentNegotiatingViewResolver	LIB
+express-0.8-RC1\code\express-server\src\main\webapp\WEB-INF\dispatcher-servlet.xml	41	25	xmlViewResolver	org.springframework.web.servlet.view.XmlViewResolver	LIB
+express-0.8-RC1\code\express-server\src\main\webapp\WEB-INF\dispatcher-servlet.xml	43	23	viewResolver	org.springframework.web.servlet.view.InternalResourceViewResolver	LIB
+express-0.8-RC1\code\express-server\src\test\resources\testApplicationContextDataSource.xml	8	14	dataSource	org.unitils.database.UnitilsDataSourceFactoryBean	LIB
+express-0.8-RC1\code\express-server\src\test\resources\testApplicationContextDataSource.xml	10	14	entityManagerFactory	org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean	LIB
+express-0.8-RC1\code\express-server\src\test\resources\testApplicationContextDataSource.xml	15	14	jpaVendorAdapter	org.unitils.orm.jpa.util.provider.hibernate.UnitilsHibernateJpaVendorAdapter	LIB
+express-0.8-RC1\code\express-server\src\test\resources\testApplicationContextDataSource.xml	19	14	transactionManager	org.springframework.orm.jpa.JpaTransactionManager	LIB
+express-0.8-RC1\code\express-server\src\test\resources\testApplicationContextDataSource.xml	24	14	databaseConstraintsDisabler	com.express.testutils.UnitilsDatabaseConstraintsDisabler	TBA
