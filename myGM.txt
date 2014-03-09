@@ -3,6 +3,12 @@
 ##
 # app
 ##
+express-0.8-RC1\code\pom.xml	23	7	spring-milestone	http://s3.amazonaws.com/maven.springframework.org/snapshot	LIB
+express-0.8-RC1\code\pom.xml	29	7	jboss	http://repository.jboss.org/maven2	LIB
+express-0.8-RC1\code\pom.xml	35	7	sun	http://download.java.net/maven/2	LIB
+express-0.8-RC1\code\pom.xml	41	7	flexmojos	http://repository.sonatype.org/content/groups/flexgroup/	LIB
+
+
 express-0.8-RC1\code\express-server\src\main\resources\applicationContext.xml	15	4	config	org.apache.commons.configuration.PropertiesConfiguration	LIB
 express-0.8-RC1\code\express-server\src\main\resources\applicationContext.xml	21	14	entityManagerFactory	org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean	LIB
 express-0.8-RC1\code\express-server\src\main\resources\applicationContext.xml	26	14	transactionManager	org.springframework.orm.jpa.JpaTransactionManager	LIB
