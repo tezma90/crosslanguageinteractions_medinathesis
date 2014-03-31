@@ -3,12 +3,14 @@
 ##
 # app
 ##
-code\pom.xml	23	7	spring-milestone	http://s3.amazonaws.com/maven.springframework.org/snapshot	LIB
-code\pom.xml	29	7	jboss	http://repository.jboss.org/maven2	LIB
-code\pom.xml	35	7	sun	http://download.java.net/maven/2	LIB
-code\pom.xml	41	7	flexmojos	http://repository.sonatype.org/content/groups/flexgroup/	LIB
+code\pom.xml	24	14	spring-milestone	http://s3.amazonaws.com/maven.springframework.org/snapshot	LIB
+code\pom.xml	30	14	jboss	http://repository.jboss.org/maven2	LIB
+code\pom.xml	36	14	sun	http://download.java.net/maven/2	LIB
+code\pom.xml	42	14	flexmojos	http://repository.sonatype.org/content/groups/flexgroup/	LIB
 code\pom.xml	51	10	wagon-webdav	org.apache.maven.wagon	LIB
-code\pom.xml	59	10	maven-release-plugin	org.apache.maven.plugins	LIB
+code\pom.xml	61	25	maven-release-plugin	org.apache.maven.plugins	LIB
+code\pom.xml	69	25	maven-deploy-plugin
+code\pom.xml	80	28	maven-idea-plugin
 
 code\express-server\pom.xml	21	13	express-client	${project.groupId}	LIB
 code\express-server\pom.xml	30	16	flexmojos-maven-plugin	org.sonatype.flexmojos	LIB
