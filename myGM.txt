@@ -83,8 +83,8 @@ code\express-server\src\main\resources\applicationContext.xml	15	14	config	org.a
 code\express-server\src\main\resources\applicationContext.xml	21	14	entityManagerFactory	org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean	87	14	description
 code\express-server\src\main\resources\applicationContext.xml	26	14	transactionManager	org.springframework.orm.jpa.JpaTransactionManager	111	14	description
 code\express-server\src\main\resources\applicationContext.xml	31	14	objectAssembler	com.googlecode.simpleobjectassembler.SimpleObjectAssembler	LIB
-code\express-server\src\main\resources\applicationContext.xml	35	14	cacheManager	org.springframework.cache.ehcache.EhCacheManagerFactoryBean	LIB
-code\express-server\src\main\resources\applicationContext.xml	37	14	loginCache	org.springframework.cache.ehcache.EhCacheFactoryBean	LIB
+code\express-server\src\main\resources\applicationContext.xml	35	14	cacheManager	org.springframework.cache.ehcache.EhCacheManagerFactoryBean	58	14	description
+code\express-server\src\main\resources\applicationContext.xml	37	14	loginCache	org.springframework.cache.ehcache.EhCacheFactoryBean	64	14	description
 code\express-server\src\main\resources\applicationContext.xml	41	14	passwordEncoder	org.springframework.security.providers.encoding.ShaPasswordEncoder	LIB
 
 code\express-server\src\main\resources\applicationContextDataSource.xml	8	14	dataSource	com.mchange.v2.c3p0.ComboPooledDataSource	LIB
