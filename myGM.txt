@@ -79,27 +79,27 @@ code\express-server\pom.xml	512	22	jackson-core-asl	org.codehaus.jackson	LIB
 code\express-server\pom.xml	517	22	jstl	javax.servlet	LIB
 code\express-server\pom.xml	523	22	standard	taglibs	LIB
 
-code\express-server\src\main\resources\applicationContext.xml	15	14	config	org.apache.commons.configuration.PropertiesConfiguration	LIB
+code\express-server\src\main\resources\applicationContext.xml	15	14	config	org.apache.commons.configuration.PropertiesConfiguration	155	14	description
 code\express-server\src\main\resources\applicationContext.xml	21	14	entityManagerFactory	org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean	87	14	description
 code\express-server\src\main\resources\applicationContext.xml	26	14	transactionManager	org.springframework.orm.jpa.JpaTransactionManager	111	14	description
-code\express-server\src\main\resources\applicationContext.xml	31	14	objectAssembler	com.googlecode.simpleobjectassembler.SimpleObjectAssembler	LIB
+code\express-server\src\main\resources\applicationContext.xml	31	14	objectAssembler	com.googlecode.simpleobjectassembler.SimpleObjectAssembler	30	14	description
 code\express-server\src\main\resources\applicationContext.xml	35	14	cacheManager	org.springframework.cache.ehcache.EhCacheManagerFactoryBean	58	14	description
 code\express-server\src\main\resources\applicationContext.xml	37	14	loginCache	org.springframework.cache.ehcache.EhCacheFactoryBean	64	14	description
-code\express-server\src\main\resources\applicationContext.xml	41	14	passwordEncoder	org.springframework.security.providers.encoding.ShaPasswordEncoder	LIB
+code\express-server\src\main\resources\applicationContext.xml	41	14	passwordEncoder	org.springframework.security.providers.encoding.ShaPasswordEncoder	38	14	description
 
-code\express-server\src\main\resources\applicationContextDataSource.xml	8	14	dataSource	com.mchange.v2.c3p0.ComboPooledDataSource	LIB
+code\express-server\src\main\resources\applicationContextDataSource.xml	8	14	dataSource	com.mchange.v2.c3p0.ComboPooledDataSource	42	20	description
 code\express-server\src\main\resources\applicationContextDataSource.xml	26	14	jpaVendorAdapter	org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter	58	14	description
-code\express-server\src\main\resources\applicationContextDataSource.xml	30	14	liquibaseDbMigrator	liquibase.spring.SpringMigrator	LIB
+code\express-server\src\main\resources\applicationContextDataSource.xml	30	14	liquibaseDbMigrator	liquibase.spring.SpringMigrator	LIB	UNSOURCABLE
 
-code\express-server\src\main\resources\applicationContextNotification.xml	10	14	velocityEngine	org.springframework.ui.velocity.VelocityEngineFactoryBean	LIB
-code\express-server\src\main\resources\applicationContextNotification.xml	15	14	mailer	org.springframework.mail.javamail.JavaMailSenderImpl	LIB
-code\express-server\src\main\resources\applicationContextNotification.xml	29	14	notificationFactory	com.express.service.notification.NotificationFactoryImpl	LIB
+code\express-server\src\main\resources\applicationContextNotification.xml	10	14	velocityEngine	org.springframework.ui.velocity.VelocityEngineFactoryBean	51	14	description
+code\express-server\src\main\resources\applicationContextNotification.xml	15	14	mailer	org.springframework.mail.javamail.JavaMailSenderImpl	69	14	description
+code\express-server\src\main\resources\applicationContextNotification.xml	29	14	notificationFactory	code\express-server\src\main\java\com\express\service\notification\NotificationFactoryImpl	13	14	description
 
-code\express-server\src\main\resources\applicationContextScheduling.xml	10	14	burndownJob	org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean	LIB
-code\express-server\src\main\resources\applicationContextScheduling.xml	17	14	cronTrigger	org.springframework.scheduling.quartz.CronTriggerBean	LIB
-code\express-server\src\main\resources\applicationContextScheduling.xml	20	17	org.springframework.scheduling.quartz.SchedulerFactoryBean	org.springframework.scheduling.quartz.SchedulerFactoryBean	LIB
+code\express-server\src\main\resources\applicationContextScheduling.xml	10	14	burndownJob	org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean	81	14	description
+code\express-server\src\main\resources\applicationContextScheduling.xml	17	14	cronTrigger	org.springframework.scheduling.quartz.CronTriggerBean	65	14	description
+code\express-server\src\main\resources\applicationContextScheduling.xml	20	17	org.springframework.scheduling.quartz.SchedulerFactoryBean	org.springframework.scheduling.quartz.SchedulerFactoryBean	89	14	description
 
-code\express-server\src\main\resources\applicationContextSecurity.xml	12	21	preAuthenticatedEntryPoint	org.springframework.security.ui.preauth.PreAuthenticatedProcessingFilterEntryPoint	LIB
+code\express-server\src\main\resources\applicationContextSecurity.xml	12	21	preAuthenticatedEntryPoint	org.springframework.security.ui.preauth.PreAuthenticatedProcessingFilterEntryPoint	41	14	description
 
 code\express-server\src\main\webapp\WEB-INF\dispatcher-servlet.xml	19	17	org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping	org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping	LIB
 code\express-server\src\main\webapp\WEB-INF\dispatcher-servlet.xml	20	17	org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter	org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter	LIB
