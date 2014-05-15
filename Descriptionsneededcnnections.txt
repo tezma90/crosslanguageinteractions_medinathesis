@@ -1,28 +1,158 @@
 org.apache.commons.configuration.PropertiesConfiguration
+
+enables a java application to read configuration data from a variety of sources
+
+
 org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean
+
+FactoryBean that creates a JPA EntityManagerFactory according to JPA’s standard bootstrap contract, it can be shared in a Spring application context.
+Settings are usually read from a .xml file in a default location, but it can be overridden. 
+This EntityManagerFactory will implement all of the native underlying interfaces returned from the PersistenceProvider
+
+
 org.springframework.orm.jpa.JpaTransactionManager
+
+Binds a JPA EntityManager from the specified factory to the thread.
+This is appropriate for applications that use a single JPA EntityManagerFactory for transactional data access.
+This transaction mangare supports direct DataSource access within a transaction allowing for mixing services which access JPA and services which use plain JDBC
+
+
 com.googlecode.simpleobjectassembler.SimpleObjectAssembler
+
+A simple object assembler with the ability to register converters for mapping objects of different types.
+Basica configuration for simple cases with the option to override and extend behaviour in different ways for more complex scenarios.
+It is free of xml configuration opting for a runtime specification of property paths to ignore for a specific invocation and conversion logic written in Java.
+
+
 org.springframework.cache.ehcache.EhCacheManagerFactoryBean
+
+FactoryBean that exposes a EHCache CacheManager singleton, configured from a specified config location.
+If no config location is specified, a CacheManager will be configured from "ehcache.xml" in the root of the class path.
+EhCacheManagerFactoryBean is also necessary for loading EHCache configuration from a non-default config location.
+
+
+
 org.springframework.cache.ehcache.EhCacheFactoryBean
+
+FactoryBean that creates a named EHCache Cache object, representing a cache region.
+If the specified named cache is not configured, this FactoryBean will construct an instance of a Cache and the specified cache properties and add it to the CacheManager for later retrieval.
+If some or all properties are not set, this FactoryBean will use defaults.
+If the named Cache instance is found, the properties will be ignored and the Cache instance will be retrieved from CacheManager.
+
+
 org.springframework.security.providers.encoding.ShaPasswordEncoder
+
+SHA implementation of PasswordEncoder.
+If a null password is presented, it will be treated as an empty String ("") password.
+As SHA is a one-way hash, the salt can contain any characters.
+
+
 com.mchange.v2.c3p0.ComboPooledDataSource
+
+c3p0 is an easy-to-use library for making traditional JDBC drivers "enterprise-ready".
+By augmenting them with functionality defined by the jdbc3 spec and the optional extensions to jdbc2.
+Classes which adapt traditional DriverManager-based JDBC drivers to the newer javax.sql.DataSource scheme for acquiring database Connections.
+3p0 DataSources are both Referenceable and Serializable, and are thus suitable for binding to a wide-variety of JNDI-based naming services.
+
+
 org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter
+
+Exposes Hibernate's persistence provider and EntityManager extension interface, and supports AbstractJpaVendorAdapter's common configuration settings.
+
+
 liquibase.spring.SpringMigrator	LIB	UNSOURCABLE
+
+
+
+
 org.springframework.ui.velocity.VelocityEngineFactoryBean
+
+Factory bean that configures a VelocityEngine and provides it as bean reference. 
+This bean is intended for any kind of usage of Velocity in application code.
+
+
 org.springframework.mail.javamail.JavaMailSenderImpl
+
+
+
+
 code\express-server\src\main\java\com\express\service\notification\NotificationFactoryImpl
+
+
+
+
 org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean
+
+
+
+
 org.springframework.scheduling.quartz.CronTriggerBean
+
+
+
+
 org.springframework.scheduling.quartz.SchedulerFactoryBean
+
+
+
+
 org.springframework.security.ui.preauth.PreAuthenticatedProcessingFilterEntryPoint
+
+
+
+
 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping
+
+
+
+
 org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter
+
+
+
+
 org.springframework.web.servlet.handler.SimpleUrlHandlerMapping
+
+
+
+
 org.springframework.web.servlet.view.ContentNegotiatingViewResolver
+
+
+
+
 org.springframework.web.servlet.view.XmlViewResolver
+
+
+
+
 org.springframework.web.servlet.view.InternalResourceViewResolver
+
+
+
+
 org.unitils.database.UnitilsDataSourceFactoryBean
+
+
+
+
 org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean
+
+
+
+
 org.unitils.orm.jpa.util.provider.hibernate.UnitilsHibernateJpaVendorAdapter
+
+
+
+
 org.springframework.orm.jpa.JpaTransactionManager
+
+
+
+
 code\express-server\src\test\java\com\express\testutils\UnitilsDatabaseConstraintsDisabler
+
+
+
+

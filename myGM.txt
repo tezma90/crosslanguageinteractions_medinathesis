@@ -79,19 +79,19 @@ code\express-server\pom.xml	512	22	jackson-core-asl	org.codehaus.jackson	LIB
 code\express-server\pom.xml	517	22	jstl	javax.servlet	LIB
 code\express-server\pom.xml	523	22	standard	taglibs	LIB
 
-code\express-server\src\main\resources\applicationContext.xml	15	14	config	org.apache.commons.configuration.PropertiesConfiguration	155	14	description
-code\express-server\src\main\resources\applicationContext.xml	21	14	entityManagerFactory	org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean	87	14	description
-code\express-server\src\main\resources\applicationContext.xml	26	14	transactionManager	org.springframework.orm.jpa.JpaTransactionManager	111	14	description
-code\express-server\src\main\resources\applicationContext.xml	31	14	objectAssembler	com.googlecode.simpleobjectassembler.SimpleObjectAssembler	30	14	description
-code\express-server\src\main\resources\applicationContext.xml	35	14	cacheManager	org.springframework.cache.ehcache.EhCacheManagerFactoryBean	58	14	description
-code\express-server\src\main\resources\applicationContext.xml	37	14	loginCache	org.springframework.cache.ehcache.EhCacheFactoryBean	64	14	description
-code\express-server\src\main\resources\applicationContext.xml	41	14	passwordEncoder	org.springframework.security.providers.encoding.ShaPasswordEncoder	38	14	description
+code\express-server\src\main\resources\applicationContext.xml	15	14	config	org.apache.commons.configuration.PropertiesConfiguration	155	14
+code\express-server\src\main\resources\applicationContext.xml	21	14	entityManagerFactory	org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean	87	14
+code\express-server\src\main\resources\applicationContext.xml	26	14	transactionManager	org.springframework.orm.jpa.JpaTransactionManager	111	14
+code\express-server\src\main\resources\applicationContext.xml	31	14	objectAssembler	com.googlecode.simpleobjectassembler.SimpleObjectAssembler	30	14
+code\express-server\src\main\resources\applicationContext.xml	35	14	cacheManager	org.springframework.cache.ehcache.EhCacheManagerFactoryBean	58	14
+code\express-server\src\main\resources\applicationContext.xml	37	14	loginCache	org.springframework.cache.ehcache.EhCacheFactoryBean	64	14
+code\express-server\src\main\resources\applicationContext.xml	41	14	passwordEncoder	org.springframework.security.providers.encoding.ShaPasswordEncoder	38	14
 
-code\express-server\src\main\resources\applicationContextDataSource.xml	8	14	dataSource	com.mchange.v2.c3p0.ComboPooledDataSource	42	20	description
-code\express-server\src\main\resources\applicationContextDataSource.xml	26	14	jpaVendorAdapter	org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter	58	14	description
+code\express-server\src\main\resources\applicationContextDataSource.xml	8	14	dataSource	com.mchange.v2.c3p0.ComboPooledDataSource	42	20
+code\express-server\src\main\resources\applicationContextDataSource.xml	26	14	jpaVendorAdapter	org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter	58	14
 code\express-server\src\main\resources\applicationContextDataSource.xml	30	14	liquibaseDbMigrator	liquibase.spring.SpringMigrator	LIB	UNSOURCABLE
 
-code\express-server\src\main\resources\applicationContextNotification.xml	10	14	velocityEngine	org.springframework.ui.velocity.VelocityEngineFactoryBean	51	14	description
+code\express-server\src\main\resources\applicationContextNotification.xml	10	14	velocityEngine	org.springframework.ui.velocity.VelocityEngineFactoryBean	51	14
 code\express-server\src\main\resources\applicationContextNotification.xml	15	14	mailer	org.springframework.mail.javamail.JavaMailSenderImpl	69	14	description
 code\express-server\src\main\resources\applicationContextNotification.xml	29	14	notificationFactory	code\express-server\src\main\java\com\express\service\notification\NotificationFactoryImpl	13	14	description
 
