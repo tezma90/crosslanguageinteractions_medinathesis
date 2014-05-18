@@ -73,7 +73,9 @@ This bean is intended for any kind of usage of Velocity in application code.
 
 org.springframework.mail.javamail.JavaMailSenderImpl
 
-
+Production implementation of the JavaMailSender interface, supporting both JavaMail MimeMessages and Spring SimpleMailMessages. Can also be used as a plain MailSender implementation.
+Allows for defining all settings locally as bean properties.
+Alternatively, a pre-configured JavaMail Session can be specified, possibly pulled from an application server's JNDI environment.
 
 
 code\express-server\src\main\java\com\express\service\notification\NotificationFactoryImpl
@@ -83,62 +85,77 @@ code\express-server\src\main\java\com\express\service\notification\NotificationF
 
 org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean
 
-
+FactoryBean that exposes a JobDetail object that delegates job execution to a specified (static or non-static) method.
+Avoids the need to implement a one-line Quartz Job that just invokes an existing service method.
 
 
 org.springframework.scheduling.quartz.CronTriggerBean
 
-
+Convenience subclass of Quartz's CronTrigger class, making bean-style usage easier.
+CronTrigger itself is already a JavaBean but lacks sensible defaults.
+ This class uses the Spring bean name as job name, the Quartz default group ("DEFAULT") as job group, the current time as start time, and indefinite repetition, if not specified.
+This class will also register the trigger with the job name and group of a given JobDetail.
+This allows SchedulerFactoryBean to automatically register a trigger for the corresponding JobDetail, instead of registering the JobDetail separately.
+ 
 
 
 org.springframework.scheduling.quartz.SchedulerFactoryBean
 
-
+FactoryBean that creates and configures a Quartz Scheduler, manages its lifecycle as part of the Spring application context, and exposes the Scheduler as bean reference for dependency injection.
+Allows registration of JobDetails, Calendars and Triggers, automatically starting the scheduler on initialization and shutting it down on destruction.
+In scenarios that just require static registration of jobs at startup, there is no need to access the Scheduler instance itself in application code.
+Note that Quartz instantiates a new Job for each execution, in contrast to Timer.
+Just JobDetail descriptors are shared.
+When using persistent jobs, it is strongly recommended to perform all operations on the Scheduler within Spring-managed (or plain JTA) transactions.
+Otherwise, database locking will not properly work and might even break.
 
 
 org.springframework.security.ui.preauth.PreAuthenticatedProcessingFilterEntryPoint
 
-
+It will be called if the user is rejected by the AbstractPreAuthenticatedProcessingFilter, resulting in a null authentication.
+In the pre-authenticated authentication case (unlike CAS, for example) the user will already have been identified through some external mechanism and a secure context established by the time the security-enforcement filter is invoked.
 
 
 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping
 
-
+Implementation of the HandlerMapping interface that maps handlers based on HTTP paths expressed through the RequestMapping annotation at the type or method level.
+ If you define custom HandlerMapping beans in your DispatcherServlet context, you need to add a DefaultAnnotationHandlerMapping bean explicitly, since custom HandlerMapping beans replace the default mapping strategies.
+Defining a DefaultAnnotationHandlerMapping also allows for registering custom interceptors.
+ 
 
 
 org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter
 
-
+Implementation of the HandlerAdapter interface that maps handler methods based on HTTP paths, HTTP methods and request parameters expressed through the RequestMapping annotation.
+This adapter can be customized through various bean properties. A common use case is to apply shared binder initialization logic through a custom WebBindingInitializer.
 
 
 org.springframework.web.servlet.handler.SimpleUrlHandlerMapping
 
-
+This mapping is configurable in the application context and has Ant-style path matching capabilities.
 
 
 org.springframework.web.servlet.view.ContentNegotiatingViewResolver
 
-
+Implementation of ViewResolver that resolves a view based on the request file name or Accept header.
+The ContentNegotiatingViewResolver does not resolve views itself, but delegates to other ViewResolvers.
+Additionally, this view resolver exposes the defaultViews property, allowing you to override the views provided by the view resolvers.
 
 
 org.springframework.web.servlet.view.XmlViewResolver
 
-
+Implementation of ViewResolver that uses bean definitions in an XML file, specified by resource location.
 
 
 org.springframework.web.servlet.view.InternalResourceViewResolver
 
-
+Convenient subclass of UrlBasedViewResolver that supports InternalResourceView (i.e. Servlets and JSPs) and subclasses.
+The view class for all views generated by this resolver can be specified via UrlBasedViewResolver.setViewClass(java.lang.Class).
 
 
 org.unitils.database.UnitilsDataSourceFactoryBean
 
-
-
-
-org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean
-
-
+missing 
 
 
 org.unitils.orm.jpa.util.provider.hibernate.UnitilsHibernateJpaVendorAdapter
