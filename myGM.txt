@@ -3,113 +3,38 @@
 ##
 # app
 ##
-code\pom.xml	24	14	spring-milestone	http://s3.amazonaws.com/maven.springframework.org/snapshot	LIB
-code\pom.xml	30	14	jboss	http://repository.jboss.org/maven2	LIB
-code\pom.xml	36	14	sun	http://download.java.net/maven/2	LIB
-code\pom.xml	42	14	flexmojos	http://repository.sonatype.org/content/groups/flexgroup/	LIB
-code\pom.xml	51	10	wagon-webdav	org.apache.maven.wagon	LIB
-code\pom.xml	61	25	maven-release-plugin	org.apache.maven.plugins	LIB
-code\pom.xml	69	25	maven-deploy-plugin
-code\pom.xml	80	28	maven-idea-plugin
 
-code\express-server\pom.xml	23	28	express-client	${project.groupId}	LIB
-code\express-server\pom.xml	32	31	flexmojos-maven-plugin	org.sonatype.flexmojos	LIB
-code\express-server\pom.xml	50	28	jetty-server	org.eclipse.jetty	LIB
-code\express-server\pom.xml	55	28	jetty-webapp	org.eclipse.jetty	LIB
-code\express-server\pom.xml	60	28	servlet-api	javax.servlet	LIB
-code\express-server\pom.xml	72	25	jetty-maven-plugin	org.mortbay.jetty	LIB
-code\express-server\pom.xml	98	25	maven-surefire-plugin	LIB
-code\express-server\pom.xml	102	25	maven-site-plugin	LIB
-code\express-server\pom.xml	105	25	maven-compiler-plugin	LIB
-code\express-server\pom.xml	112	25	maven-pmd-plugin	LIB
-code\express-server\pom.xml	159	25	cobertura-maven-plugin	org.codehaus.mojo	LIB
-code\express-server\pom.xml	182	25	maven-surefire-report-plugin	org.apache.maven.plugins	LIB
-code\express-server\pom.xml	186	25	maven-jxr-plugin	org.apache.maven.plugins	LIB
-code\express-server\pom.xml	190	25	cobertura-maven-plugin	org.codehaus.mojo	LIB
-code\express-server\pom.xml	193	25	maven-pmd-plugin	maven-pmd-plugin	LIB
-code\express-server\pom.xml	214	22	servlet-api	javax.servlet	LIB
-code\express-server\pom.xml	219	22	ehcache	net.sf.ehcache	LIB
-code\express-server\pom.xml	224	22	junit	junit	LIB
-code\express-server\pom.xml	230	22	spring-core	org.springframework	LIB
-code\express-server\pom.xml	236	22	spring-orm	org.springframework	LIB
-code\express-server\pom.xml	242	22	spring-oxm	org.springframework	LIB
-code\express-server\pom.xml	248	22	spring-tx	org.springframework	LIB
-code\express-server\pom.xml	254	22	spring-beans	org.springframework	LIB
-code\express-server\pom.xml	260	22	spring-asm	org.springframework	LIB
-code\express-server\pom.xml	266	22	spring-aop	org.springframework	LIB
-code\express-server\pom.xml	272	22	spring-aspects	org.springframework	LIB
-code\express-server\pom.xml	278	22	spring-context	org.springframework	LIB
-code\express-server\pom.xml	284	22	spring-context-support	org.springframework	LIB
-code\express-server\pom.xml	290	22	spring-jdbc	org.springframework	LIB
-code\express-server\pom.xml	296	22	spring-expression	org.springframework	LIB
-code\express-server\pom.xml	302	22	spring-web	org.springframework	LIB
-code\express-server\pom.xml	308	22	spring-webmvc	org.springframework	LIB
-code\express-server\pom.xml	314	22	aopalliance	aopalliance	LIB
-code\express-server\pom.xml	319	22	aspectjtools	aspectj	LIB
-code\express-server\pom.xml	324	22	antlr	org.antlr	LIB
-code\express-server\pom.xml	329	22	spring-security-core	org.springframework.security	LIB
-code\express-server\pom.xml	364	22	spring-flex	org.springframework.flex	LIB
-code\express-server\pom.xml	371	22	c3p0	c3p0	LIB
-code\express-server\pom.xml	376	22	persistence-api	javax.persistence	LIB
-code\express-server\pom.xml	382	22	hibernate	org.hibernate	LIB
-code\express-server\pom.xml	387	22	hibernate-annotations	org.hibernate	LIB
-code\express-server\pom.xml	392	22	hibernate-entitymanager	org.hibernate	LIB
-code\express-server\pom.xml	398	22	concurrent	oswego-concurrent	LIB
-code\express-server\pom.xml	403	22	log4j	log4j	LIB
-code\express-server\pom.xml	410	22	postgresql	postgresql	LIB
-code\express-server\pom.xml	415	22	mysql-connector-java	mysql	LIB
-code\express-server\pom.xml	421	22	hsqldb	org.hsqldb	LIB
-code\express-server\pom.xml	427	22	commons-fileupload	commons-fileupload	LIB
-code\express-server\pom.xml	432	22	commons-io	commons-io	LIB
-code\express-server\pom.xml	437	22	commons-configuration	commons-configuration	LIB
-code\express-server\pom.xml	442	22	commons-collections	commons-collections	LIB
-code\express-server\pom.xml	447	22	commons-lang	commons-lang	LIB
-code\express-server\pom.xml	452	22	simpleobjectassembler	com.googlecode	LIB
-code\express-server\pom.xml	457	22	jsr250-api	javax.annotation	LIB
-code\express-server\pom.xml	463	22	dbunit	org.dbunit	LIB
-code\express-server\pom.xml	468	22	servlet-api	javax.servlet	LIB
-code\express-server\pom.xml	474	22	unitils	org.unitils	LIB
-code\express-server\pom.xml	480	22	jbehave-core	org.jbehave	LIB
-code\express-server\pom.xml	486	22	mockito-all	org.mockito	LIB
-code\express-server\pom.xml	492	22	hamcrest-all	org.hamcrest	LIB
-code\express-server\pom.xml	497	22	velocity	org.apache.velocity	LIB
-code\express-server\pom.xml	502	22	liquibase-core	org.liquibase	LIB
-code\express-server\pom.xml	507	22	quartz	org.opensymphony.quartz	LIB
-code\express-server\pom.xml	512	22	jackson-core-asl	org.codehaus.jackson	LIB
-code\express-server\pom.xml	517	22	jstl	javax.servlet	LIB
-code\express-server\pom.xml	523	22	standard	taglibs	LIB
+code\express-server\src\main\resources\applicationContext.xml	15	14	config	org.apache.commons.configuration.PropertiesConfiguration	155	14	PropertiesConfiguration
+code\express-server\src\main\resources\applicationContext.xml	21	14	entityManagerFactory	org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean	87	14	LocalContainerEntityManagerFactoryBean
+code\express-server\src\main\resources\applicationContext.xml	26	14	transactionManager	org.springframework.orm.jpa.JpaTransactionManager	111	14	JpaTransactionManager
+code\express-server\src\main\resources\applicationContext.xml	31	14	objectAssembler	com.googlecode.simpleobjectassembler.SimpleObjectAssembler	30	14	SimpleObjectAssembler
+code\express-server\src\main\resources\applicationContext.xml	35	14	cacheManager	org.springframework.cache.ehcache.EhCacheManagerFactoryBean	58	14	EhCacheManagerFactoryBean
+code\express-server\src\main\resources\applicationContext.xml	37	14	loginCache	org.springframework.cache.ehcache.EhCacheFactoryBean	64	14	EhCacheFactoryBean
+code\express-server\src\main\resources\applicationContext.xml	41	14	passwordEncoder	org.springframework.security.providers.encoding.ShaPasswordEncoder	38	14	ShaPasswordEncoder
 
-code\express-server\src\main\resources\applicationContext.xml	15	14	config	org.apache.commons.configuration.PropertiesConfiguration	155	14
-code\express-server\src\main\resources\applicationContext.xml	21	14	entityManagerFactory	org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean	87	14
-code\express-server\src\main\resources\applicationContext.xml	26	14	transactionManager	org.springframework.orm.jpa.JpaTransactionManager	111	14
-code\express-server\src\main\resources\applicationContext.xml	31	14	objectAssembler	com.googlecode.simpleobjectassembler.SimpleObjectAssembler	30	14
-code\express-server\src\main\resources\applicationContext.xml	35	14	cacheManager	org.springframework.cache.ehcache.EhCacheManagerFactoryBean	58	14
-code\express-server\src\main\resources\applicationContext.xml	37	14	loginCache	org.springframework.cache.ehcache.EhCacheFactoryBean	64	14
-code\express-server\src\main\resources\applicationContext.xml	41	14	passwordEncoder	org.springframework.security.providers.encoding.ShaPasswordEncoder	38	14
+code\express-server\src\main\resources\applicationContextDataSource.xml	8	14	dataSource	com.mchange.v2.c3p0.ComboPooledDataSource	42	20	ComboPooledDataSource
+code\express-server\src\main\resources\applicationContextDataSource.xml	26	14	jpaVendorAdapter	org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter	58	14	HibernateJpaVendorAdapter
+code\express-server\src\main\resources\applicationContextDataSource.xml	30	14	liquibaseDbMigrator	liquibase.spring.SpringMigrator	33	14	SpringMigrator
 
-code\express-server\src\main\resources\applicationContextDataSource.xml	8	14	dataSource	com.mchange.v2.c3p0.ComboPooledDataSource	42	20
-code\express-server\src\main\resources\applicationContextDataSource.xml	26	14	jpaVendorAdapter	org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter	58	14
-code\express-server\src\main\resources\applicationContextDataSource.xml	30	14	liquibaseDbMigrator	liquibase.spring.SpringMigrator	33	14
+code\express-server\src\main\resources\applicationContextNotification.xml	10	14	velocityEngine	org.springframework.ui.velocity.VelocityEngineFactoryBean	51	14	VelocityEngineFactoryBean
+code\express-server\src\main\resources\applicationContextNotification.xml	15	14	mailer	org.springframework.mail.javamail.JavaMailSenderImpl	69	14	JavaMailSenderImpl
+code\express-server\src\main\resources\applicationContextNotification.xml	29	14	notificationFactory	code\express-server\src\main\java\com\express\service\notification\NotificationFactoryImpl	13	14	NotificationFactoryImpl
 
-code\express-server\src\main\resources\applicationContextNotification.xml	10	14	velocityEngine	org.springframework.ui.velocity.VelocityEngineFactoryBean	51	14
-code\express-server\src\main\resources\applicationContextNotification.xml	15	14	mailer	org.springframework.mail.javamail.JavaMailSenderImpl	69	14	description
-code\express-server\src\main\resources\applicationContextNotification.xml	29	14	notificationFactory	code\express-server\src\main\java\com\express\service\notification\NotificationFactoryImpl	13	14	description
+code\express-server\src\main\resources\applicationContextScheduling.xml	10	14	burndownJob	org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean	81	14	MethodInvokingJobDetailFactoryBean
+code\express-server\src\main\resources\applicationContextScheduling.xml	17	14	cronTrigger	org.springframework.scheduling.quartz.CronTriggerBean	65	14	CronTriggerBean
+code\express-server\src\main\resources\applicationContextScheduling.xml	20	17	org.springframework.scheduling.quartz.SchedulerFactoryBean	org.springframework.scheduling.quartz.SchedulerFactoryBean	89	14	SchedulerFactoryBean
 
-code\express-server\src\main\resources\applicationContextScheduling.xml	10	14	burndownJob	org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean	81	14
-code\express-server\src\main\resources\applicationContextScheduling.xml	17	14	cronTrigger	org.springframework.scheduling.quartz.CronTriggerBean	65	14
-code\express-server\src\main\resources\applicationContextScheduling.xml	20	17	org.springframework.scheduling.quartz.SchedulerFactoryBean	org.springframework.scheduling.quartz.SchedulerFactoryBean	89	14
+code\express-server\src\main\resources\applicationContextSecurity.xml	12	21	preAuthenticatedEntryPoint	org.springframework.security.ui.preauth.PreAuthenticatedProcessingFilterEntryPoint	41	14	PreAuthenticatedProcessingFilterEntryPoint
 
-code\express-server\src\main\resources\applicationContextSecurity.xml	12	21	preAuthenticatedEntryPoint	org.springframework.security.ui.preauth.PreAuthenticatedProcessingFilterEntryPoint	41	14
+code\express-server\src\main\webapp\WEB-INF\dispatcher-servlet.xml	19	17	org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping	org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping	87	14	DefaultAnnotationHandlerMapping
+code\express-server\src\main\webapp\WEB-INF\dispatcher-servlet.xml	20	17	org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter	org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter	146	14	AnnotationMethodHandlerAdapter
+code\express-server\src\main\webapp\WEB-INF\dispatcher-servlet.xml	21	17	org.springframework.web.servlet.handler.SimpleUrlHandlerMapping	org.springframework.web.servlet.handler.SimpleUrlHandlerMapping	56	14	SimpleUrlHandlerMapping
+code\express-server\src\main\webapp\WEB-INF\dispatcher-servlet.xml	31	17	org.springframework.web.servlet.view.ContentNegotiatingViewResolver	org.springframework.web.servlet.view.ContentNegotiatingViewResolver	90	14	ContentNegotiatingViewResolver
+code\express-server\src\main\webapp\WEB-INF\dispatcher-servlet.xml	41	25	xmlViewResolver	org.springframework.web.servlet.view.XmlViewResolver	54	14	XmlViewResolver
+code\express-server\src\main\webapp\WEB-INF\dispatcher-servlet.xml	43	23	viewResolver	org.springframework.web.servlet.view.InternalResourceViewResolver	48	14	InternalResourceViewResolver
 
-code\express-server\src\main\webapp\WEB-INF\dispatcher-servlet.xml	19	17	org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping	org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping	87	14
-code\express-server\src\main\webapp\WEB-INF\dispatcher-servlet.xml	20	17	org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter	org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter	146	14
-code\express-server\src\main\webapp\WEB-INF\dispatcher-servlet.xml	21	17	org.springframework.web.servlet.handler.SimpleUrlHandlerMapping	org.springframework.web.servlet.handler.SimpleUrlHandlerMapping	56	14
-code\express-server\src\main\webapp\WEB-INF\dispatcher-servlet.xml	31	17	org.springframework.web.servlet.view.ContentNegotiatingViewResolver	org.springframework.web.servlet.view.ContentNegotiatingViewResolver	90	14
-code\express-server\src\main\webapp\WEB-INF\dispatcher-servlet.xml	41	25	xmlViewResolver	org.springframework.web.servlet.view.XmlViewResolver	54	14
-code\express-server\src\main\webapp\WEB-INF\dispatcher-servlet.xml	43	23	viewResolver	org.springframework.web.servlet.view.InternalResourceViewResolver	48	14
-
-code\express-server\src\test\resources\testApplicationContextDataSource.xml	8	14	dataSource	org.unitils.database.UnitilsDataSourceFactoryBean	34	14	description
-code\express-server\src\test\resources\testApplicationContextDataSource.xml	10	14	entityManagerFactory	org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean	87	14
-code\express-server\src\test\resources\testApplicationContextDataSource.xml	15	14	jpaVendorAdapter	org.unitils.orm.jpa.util.provider.hibernate.UnitilsHibernateJpaVendorAdapter	29	14
-code\express-server\src\test\resources\testApplicationContextDataSource.xml	19	14	transactionManager	org.springframework.orm.jpa.JpaTransactionManager	111	14
-code\express-server\src\test\resources\testApplicationContextDataSource.xml	24	14	databaseConstraintsDisabler	code\express-server\src\test\java\com\express\testutils\UnitilsDatabaseConstraintsDisabler	18	14
+code\express-server\src\test\resources\testApplicationContextDataSource.xml	8	14	dataSource	org.unitils.database.UnitilsDataSourceFactoryBean	34	14	UnitilsDataSourceFactoryBean
+code\express-server\src\test\resources\testApplicationContextDataSource.xml	10	14	entityManagerFactory	org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean	87	14	LocalContainerEntityManagerFactoryBean
+code\express-server\src\test\resources\testApplicationContextDataSource.xml	15	14	jpaVendorAdapter	org.unitils.orm.jpa.util.provider.hibernate.UnitilsHibernateJpaVendorAdapter	29	14	UnitilsHibernateJpaVendorAdapter
+code\express-server\src\test\resources\testApplicationContextDataSource.xml	19	14	transactionManager	org.springframework.orm.jpa.JpaTransactionManager	111	14	JpaTransactionManager
+code\express-server\src\test\resources\testApplicationContextDataSource.xml	24	14	databaseConstraintsDisabler	code\express-server\src\test\java\com\express\testutils\UnitilsDatabaseConstraintsDisabler	18	14	UnitilsDatabaseConstraintsDisabler
