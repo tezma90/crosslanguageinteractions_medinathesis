@@ -1,0 +1,80 @@
+################################################################################
+# fileA	row_number	column_number	surface_form	fileB	row_number	column_number	surface_form 
+##
+# app
+##
+code\pom.xml	24	14	spring-milestone	http://s3.amazonaws.com/maven.springframework.org/snapshot	LIB
+code\pom.xml	30	14	jboss	http://repository.jboss.org/maven2	LIB
+code\pom.xml	36	14	sun	http://download.java.net/maven/2	LIB
+code\pom.xml	42	14	flexmojos	http://repository.sonatype.org/content/groups/flexgroup/	LIB
+code\pom.xml	51	10	wagon-webdav	org.apache.maven.wagon	LIB
+code\pom.xml	61	25	maven-release-plugin	org.apache.maven.plugins	LIB
+code\pom.xml	69	25	maven-deploy-plugin
+code\pom.xml	80	28	maven-idea-plugin
+
+code\express-server\pom.xml	23	28	express-client	${project.groupId}	LIB
+code\express-server\pom.xml	32	31	flexmojos-maven-plugin	org.sonatype.flexmojos	LIB
+code\express-server\pom.xml	50	28	jetty-server	org.eclipse.jetty	LIB
+code\express-server\pom.xml	55	28	jetty-webapp	org.eclipse.jetty	LIB
+code\express-server\pom.xml	60	28	servlet-api	javax.servlet	LIB
+code\express-server\pom.xml	72	25	jetty-maven-plugin	org.mortbay.jetty	LIB
+code\express-server\pom.xml	98	25	maven-surefire-plugin	LIB
+code\express-server\pom.xml	102	25	maven-site-plugin	LIB
+code\express-server\pom.xml	105	25	maven-compiler-plugin	LIB
+code\express-server\pom.xml	112	25	maven-pmd-plugin	LIB
+code\express-server\pom.xml	159	25	cobertura-maven-plugin	org.codehaus.mojo	LIB
+code\express-server\pom.xml	182	25	maven-surefire-report-plugin	org.apache.maven.plugins	LIB
+code\express-server\pom.xml	186	25	maven-jxr-plugin	org.apache.maven.plugins	LIB
+code\express-server\pom.xml	190	25	cobertura-maven-plugin	org.codehaus.mojo	LIB
+code\express-server\pom.xml	193	25	maven-pmd-plugin	maven-pmd-plugin	LIB
+code\express-server\pom.xml	214	22	servlet-api	javax.servlet	LIB
+code\express-server\pom.xml	219	22	ehcache	net.sf.ehcache	LIB
+code\express-server\pom.xml	224	22	junit	junit	LIB
+code\express-server\pom.xml	230	22	spring-core	org.springframework	LIB
+code\express-server\pom.xml	236	22	spring-orm	org.springframework	LIB
+code\express-server\pom.xml	242	22	spring-oxm	org.springframework	LIB
+code\express-server\pom.xml	248	22	spring-tx	org.springframework	LIB
+code\express-server\pom.xml	254	22	spring-beans	org.springframework	LIB
+code\express-server\pom.xml	260	22	spring-asm	org.springframework	LIB
+code\express-server\pom.xml	266	22	spring-aop	org.springframework	LIB
+code\express-server\pom.xml	272	22	spring-aspects	org.springframework	LIB
+code\express-server\pom.xml	278	22	spring-context	org.springframework	LIB
+code\express-server\pom.xml	284	22	spring-context-support	org.springframework	LIB
+code\express-server\pom.xml	290	22	spring-jdbc	org.springframework	LIB
+code\express-server\pom.xml	296	22	spring-expression	org.springframework	LIB
+code\express-server\pom.xml	302	22	spring-web	org.springframework	LIB
+code\express-server\pom.xml	308	22	spring-webmvc	org.springframework	LIB
+code\express-server\pom.xml	314	22	aopalliance	aopalliance	LIB
+code\express-server\pom.xml	319	22	aspectjtools	aspectj	LIB
+code\express-server\pom.xml	324	22	antlr	org.antlr	LIB
+code\express-server\pom.xml	329	22	spring-security-core	org.springframework.security	LIB
+code\express-server\pom.xml	364	22	spring-flex	org.springframework.flex	LIB
+code\express-server\pom.xml	371	22	c3p0	c3p0	LIB
+code\express-server\pom.xml	376	22	persistence-api	javax.persistence	LIB
+code\express-server\pom.xml	382	22	hibernate	org.hibernate	LIB
+code\express-server\pom.xml	387	22	hibernate-annotations	org.hibernate	LIB
+code\express-server\pom.xml	392	22	hibernate-entitymanager	org.hibernate	LIB
+code\express-server\pom.xml	398	22	concurrent	oswego-concurrent	LIB
+code\express-server\pom.xml	403	22	log4j	log4j	LIB
+code\express-server\pom.xml	410	22	postgresql	postgresql	LIB
+code\express-server\pom.xml	415	22	mysql-connector-java	mysql	LIB
+code\express-server\pom.xml	421	22	hsqldb	org.hsqldb	LIB
+code\express-server\pom.xml	427	22	commons-fileupload	commons-fileupload	LIB
+code\express-server\pom.xml	432	22	commons-io	commons-io	LIB
+code\express-server\pom.xml	437	22	commons-configuration	commons-configuration	LIB
+code\express-server\pom.xml	442	22	commons-collections	commons-collections	LIB
+code\express-server\pom.xml	447	22	commons-lang	commons-lang	LIB
+code\express-server\pom.xml	452	22	simpleobjectassembler	com.googlecode	LIB
+code\express-server\pom.xml	457	22	jsr250-api	javax.annotation	LIB
+code\express-server\pom.xml	463	22	dbunit	org.dbunit	LIB
+code\express-server\pom.xml	468	22	servlet-api	javax.servlet	LIB
+code\express-server\pom.xml	474	22	unitils	org.unitils	LIB
+code\express-server\pom.xml	480	22	jbehave-core	org.jbehave	LIB
+code\express-server\pom.xml	486	22	mockito-all	org.mockito	LIB
+code\express-server\pom.xml	492	22	hamcrest-all	org.hamcrest	LIB
+code\express-server\pom.xml	497	22	velocity	org.apache.velocity	LIB
+code\express-server\pom.xml	502	22	liquibase-core	org.liquibase	LIB
+code\express-server\pom.xml	507	22	quartz	org.opensymphony.quartz	LIB
+code\express-server\pom.xml	512	22	jackson-core-asl	org.codehaus.jackson	LIB
+code\express-server\pom.xml	517	22	jstl	javax.servlet	LIB
+code\express-server\pom.xml	523	22	standard	taglibs	LIB
